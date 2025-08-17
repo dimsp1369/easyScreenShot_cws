@@ -91,24 +91,16 @@ widjet/
 ├── popup.html              # Popup interface
 ├── popup.js                # Popup logic
 ├── widget.css              # Widget styles
-├── GOOGLE_SETUP.md         # Google API setup
-├── QUICK_START.md          # Quick start
+├── google-docs-api.js      # Google Docs API integration
+├── icons/                  # Extension icons
+│   ├── icon.svg
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
 ├── CHANGELOG.md            # Changelog
+├── PRIVACY_POLICY.md       # Privacy policy
 └── README.md               # This file
 ```
-
-## 🔧 Setup
-
-### Google Cloud Console
-
-For full Google Docs functionality:
-
-1. Create a project in [Google Cloud Console](https://console.cloud.google.com/)
-2. Enable Google Docs API and Google Drive API
-3. Create an OAuth 2.0 Client ID for Chrome Extension
-4. Update the `client_id` in `manifest.json`
-
-Detailed instructions: [GOOGLE_SETUP.md](./GOOGLE_SETUP.md)
 
 ### Customization
 
@@ -178,6 +170,8 @@ Edit `widget.css` to change the appearance.
 2. Create a branch for a new feature
 3. Make changes
 4. Create a Pull Request
+
+[Privacy Policy](https://github.com/dimsp1369/easyScreenShot_cws/blob/main/PRIVACY_POLICY.md)
 
 ## 📄 License
 

@@ -109,8 +109,8 @@ Easy Screenshot ("we", "our", "the extension") respects your privacy and is comm
 ## 📞 Contact
 
 ### For privacy questions:
-- **Email:** [your email]
-- **GitHub:** [repository link]
+- **Email:** dimsp1369@gmail.com
+- **GitHub:** https://github.com/dimsp1369/easyScreenShot_cws
 - **Chrome Web Store:** [extension page link]
 
 ### Response time:
