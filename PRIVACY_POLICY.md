@@ -44,7 +44,6 @@ Easy Screenshot ("we", "our", "the extension") respects your privacy and is comm
 - **scripting** – execute scripts for taking screenshots
 - **notifications** – notify about completed operations
 - **tabs** – manage tabs for taking screenshots
-- **desktopCapture** – capture the screen
 - **identity** – secure Google account authorization
 
 ## 🌐 Third-Party Services

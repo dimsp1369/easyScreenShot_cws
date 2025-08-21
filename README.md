@@ -68,7 +68,6 @@ A simple Chrome extension that allows you to take screenshots with a user-friend
     "scripting",      // Script execution
     "notifications",  // Notifications
     "tabs",           // Tab management
-    "desktopCapture", // Screenshot creation
     "identity"        // Google OAuth authorization
   ]
 }
@@ -125,7 +124,6 @@ Edit `widget.css` to change the appearance.
 ### Screenshot not created
 
 **Possible reasons:**
-- Missing `desktopCapture` permission
 - Trying to capture a chrome:// page
 - Content script not loaded
 
