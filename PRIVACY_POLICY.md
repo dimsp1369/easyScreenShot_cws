@@ -1,7 +1,7 @@
 # Privacy Policy – Easy Screenshot Extension
 
 **Last updated:** 2025  
-**Version:** 1.0
+**Version:** 1.1
 
 ## 📋 Overview
 
@@ -132,6 +132,6 @@ By using Easy Screenshot, you agree to this privacy policy. If you do not agree 
 
 ---
 
-**Last updated:** 2025  
-**Policy version:** 1.0  
+**Last updated:** 2025-08-23  
+**Policy version:** 1.1  
 **Status:** Active 
