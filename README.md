@@ -2,6 +2,33 @@
 
 A simple Chrome extension that allows you to take screenshots with a user-friendly interface and the ability to save them to Google Docs.
 
+## 🚀 Development vs Production
+
+**GitHub Version (Development):**
+- Uses development Client ID
+- For local testing and development
+- NOT suitable for production use
+
+**Production Version:**
+- Available on [Chrome Web Store](https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla)
+- Uses production Client ID
+- Fully functional with Google services
+
+## 📦 Installation
+
+**For Development:**
+1. Clone this repository
+2. Load as unpacked extension in Chrome
+3. Use for testing and development
+
+**For Production:**
+1. Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla)
+2. Full functionality with Google integration
+
+## 🔒 Production Code
+
+Production code with production Client ID is maintained in a separate private repository for security reasons.
+
 ## ✨ Features
 
 - 📸 **Screenshot creation** – quick screen captures
@@ -13,22 +40,30 @@ A simple Chrome extension that allows you to take screenshots with a user-friend
 
 ## 🚀 Quick Start
 
-1. **Install the extension**
+**For Production Users:**
+1. **Install from Chrome Web Store**
+   - Visit [Easy Screenshot](https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla)
+   - Click "Add to Chrome"
+   - Extension will work immediately with Google integration
+
+**For Developers:**
+1. **Clone and setup**
+   - Clone this repository
    - Open `chrome://extensions/`
    - Enable "Developer mode"
    - Click "Load unpacked extension"
    - Select the folder with the files
 
-2. **Google API setup (optional)**
-   - To save to Google Docs, follow the instructions in [GOOGLE_SETUP.md](./GOOGLE_SETUP.md)
-   - Get a Client ID in Google Cloud Console
+2. **Google API setup (for development)**
+   - Follow the instructions in [GOOGLE_SETUP.md](./GOOGLE_SETUP.md)
+   - Get a development Client ID in Google Cloud Console
    - Update `manifest.json`
 
 3. **First use**
    - Click the extension icon
    - Sign in to your Google account (for Google Docs)
    - Click "📸 Take screenshot"
-   - Or use the hotkey Ctrl+Shift+S
+   - Or use the hotkey Ctrl+Shift+X
 
 ## 📖 Usage
 
@@ -39,8 +74,8 @@ A simple Chrome extension that allows you to take screenshots with a user-friend
 2. Click "📸 Take screenshot"
 
 **Method 2: Hotkeys**
-- Windows/Linux: `Ctrl + Shift + S`
-- Mac: `Cmd + Shift + S`
+- Windows/Linux: `Ctrl + Shift + X`
+- Mac: `Cmd + Shift + X`
 
 ### Saving a screenshot
 
@@ -164,12 +199,19 @@ Edit `widget.css` to change the appearance.
 
 ## 🤝 Contributing
 
+**For Development:**
 1. Fork the repository
 2. Create a branch for a new feature
 3. Make changes
 4. Create a Pull Request
 
-[Privacy Policy](https://github.com/dimsp1369/easyScreenShot_cws/blob/main/PRIVACY_POLICY.md)
+**For Production Issues:**
+- Use the [Chrome Web Store](https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla) for user support
+- Report bugs through the store's feedback system
+
+## 📄 Privacy Policy
+
+[Privacy Policy](https://dimsp1369.github.io/easyScreenShot_cws/PRIVACY_POLICY.md)
 
 ## 📄 License
 
@@ -183,5 +225,6 @@ MIT License – see LICENSE for details.
 
 ---
 
-**Version:** 1.0  
-**Last updated:** 2025 
+**Version:** 1.1  
+**Last updated:** 2025  
+**Chrome Web Store:** [Easy Screenshot](https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla) 
