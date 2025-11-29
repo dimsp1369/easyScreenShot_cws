@@ -112,7 +112,11 @@ Production code with production Client ID is maintained in a separate private re
 
 The extension uses:
 - **Google Docs API** – create and edit documents
-- **Google Drive API** – upload images
+  - Scope: `https://www.googleapis.com/auth/documents`
+  - Used for: Creating documents, inserting images/text, formatting
+- **Google Drive API** – upload images and manage files
+  - Scope: `https://www.googleapis.com/auth/drive.file`
+  - Used for: Uploading screenshots, setting permissions, file management
 - **OAuth 2.0** – secure authorization
 
 ## 📁 Project Structure
@@ -132,7 +136,7 @@ widjet/
 │   ├── icon48.png
 │   └── icon128.png
 ├── CHANGELOG.md            # Changelog
-├── PRIVACY_POLICY.md       # Privacy policy
+├── PRIVACY_POLICY.md       # Privacy policy (Markdown)
 └── README.md               # This file
 ```
 
@@ -144,7 +148,7 @@ widjet/
   "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Ctrl+Alt+S"
+        "default": "Ctrl+Shift+X"
       }
     }
   }
@@ -211,7 +215,10 @@ Edit `widget.css` to change the appearance.
 
 ## 📄 Privacy Policy
 
-[Privacy Policy](https://dimsp1369.github.io/easyScreenShot_cws/PRIVACY_POLICY.md)
+- **Markdown version:** [Privacy Policy (MD)](https://dimsp1369.github.io/easyScreenShot_cws/PRIVACY_POLICY.md)
+- **HTML version:** [Privacy Policy (HTML)](https://easyscreenshotpage.com/privacy-policy.html)
+
+**Latest update:** 2025-11-29 | **Version:** 1.2
 
 ## 📄 License
 
@@ -225,6 +232,6 @@ MIT License – see LICENSE for details.
 
 ---
 
-**Version:** 1.1  
-**Last updated:** 2025  
+**Version:** 1.2  
+**Last updated:** 2025-11-29  
 **Chrome Web Store:** [Easy Screenshot](https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla) 

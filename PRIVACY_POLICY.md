@@ -157,6 +157,6 @@ By using Easy Screenshot, you agree to this privacy policy. If you do not agree 
 
 ---
 
-**Last updated:** 2025-01-20  
+**Last updated:** 2025-11-29  
 **Policy version:** 1.2  
 **Status:** Active 
