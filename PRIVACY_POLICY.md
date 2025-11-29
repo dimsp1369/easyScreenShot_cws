@@ -1,7 +1,7 @@
 # Privacy Policy – Easy Screenshot Extension
 
 **Last updated:** 2025  
-**Version:** 1.1
+**Version:** 1.2
 
 ## 📋 Overview
 
@@ -50,14 +50,39 @@ Easy Screenshot ("we", "our", "the extension") respects your privacy and is comm
 
 ### Google services:
 - **Google Drive API** – for saving files (only at your request)
+  - Scope: `https://www.googleapis.com/auth/drive.file`
+  - Used to: Upload screenshots to Google Drive
 - **Google Docs API** – for creating documents (only at your request)
+  - Scope: `https://www.googleapis.com/auth/documents`
+  - Used to: Create and edit Google Docs documents with screenshots
 - **OAuth 2.0** – for secure authorization
+  - We use Google OAuth 2.0 to securely authenticate with your Google account
+  - We do not store your Google credentials
+  - You can revoke access at any time through your Google Account settings
 
 ### We DO NOT use:
 - Ad networks
 - Analytics services
 - Tracking scripts
 - Third-party CDNs
+
+## 🔄 Data Sharing and Disclosure
+
+### We DO NOT share, transfer, or disclose Google user data:
+- **No third-party sharing** – We do not share any Google user data with third parties
+- **No data sales** – We do not sell, rent, or trade any user data
+- **No external transfers** – All Google data remains within Google's infrastructure
+- **No analytics** – We do not send Google user data to analytics services
+
+### Data processing:
+- **Google services only** – All Google data is processed exclusively through official Google APIs
+- **User-initiated actions** – Data is accessed only when users explicitly choose to save screenshots
+- **Temporary storage** – Screenshot images are temporarily stored in Google Drive only for embedding purposes and are automatically deleted after embedding
+- **No server storage** – We do not store any Google user data on external servers
+
+### Legal requirements:
+- **Compliance** – We may disclose data only if required by law or legal process
+- **User consent** – Any data sharing would require explicit user consent (currently not applicable as we do not share data)
 
 ## 📱 Data Storage
 
@@ -132,6 +157,6 @@ By using Easy Screenshot, you agree to this privacy policy. If you do not agree 
 
 ---
 
-**Last updated:** 2025-08-23  
-**Policy version:** 1.1  
+**Last updated:** 2025-01-20  
+**Policy version:** 1.2  
 **Status:** Active 
